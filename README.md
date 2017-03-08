@@ -3,8 +3,8 @@
 A small script to install Flash Player 24 (latest) Projector (64-bit standalone) on Ubuntu.
 
 How to use :
-* Open in Terminal (right click)
-  ./configure
+* Open in Terminal (right click).
+./configure
 
 * right click on a swf file -> Properties -> Open With -> flashplayer -> Set as default
 
