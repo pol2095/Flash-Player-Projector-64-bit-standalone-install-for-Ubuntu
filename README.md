@@ -3,7 +3,7 @@
 A small script to install Flash Player 24 (latest) Projector (64-bit standalone) on Ubuntu.
 
 How to use :
-* right click on "configure" file, select Properties, then check "Allow execution of the file as a program" under the Permissions tab
+* right click on "configure" file, select Properties, then check "Allow execution of the file as a program" (if not selected) under the Permissions tab
 
 * Open in Terminal (right click)  
 ./configure
