@@ -1,0 +1,22 @@
+#Copyright 2017 pol2095.
+
+cd ~
+if [ ! -e executable ]
+then
+    mkdir executable
+fi
+
+cd executable
+wget http://pol2095.free.fr/flash_player_sa_linux.x86_64 -O flash_player_sa_linux.x86_64.tar.gz
+tar xvzf flash_player_sa_linux.x86_64.tar.gz
+rm flash_player_sa_linux.x86_64.tar.gz
+
+cd ~/.local/share/applications
+echo "[Desktop Entry]" >> flashplayer.desktop
+echo "Encoding=UTF-8" >> flashplayer.desktop
+echo "Version=1.0" >> flashplayer.desktop
+echo "Type=Application" >> flashplayer.desktop
+echo "Exec=/home/ubuntu/executable/flashplayer %f" >> flashplayer.desktop
+echo "Name=flashplayer" >> flashplayer.desktop
+echo "Comment=Custom definition for flashplayer" >> flashplayer.desktop
+echo "NoDisplay=true" >> flashplayer.desktop
