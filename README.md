@@ -4,7 +4,7 @@ A small script to install Flash Player 24 (latest) Projector (64-bit standalone)
 
 How to use :
 * Open in Terminal (right click)
-./configure
+  ./configure
 
 * right click on a swf file -> Properties -> Open With -> flashplayer -> Set as default
 
