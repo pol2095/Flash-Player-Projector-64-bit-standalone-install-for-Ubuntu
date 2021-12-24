@@ -10,8 +10,8 @@ cd bin
 wget http://pol2095.free.fr/flash_player_sa_linux.x86_64 -O flash_player_sa_linux.x86_64.tar.gz
 tar xvzf flash_player_sa_linux.x86_64.tar.gz
 rm flash_player_sa_linux.x86_64.tar.gz
-rm license.pdf
-rm LGPL
+#rm license.pdf
+#rm LGPL
 
 cd ~/.local/share/applications
 echo "[Desktop Entry]" >> flashplayer.desktop
