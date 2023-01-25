@@ -16,7 +16,7 @@ echo "[Desktop Entry]" >> flashplayer.desktop
 echo "Encoding=UTF-8" >> flashplayer.desktop
 echo "Version=1.0" >> flashplayer.desktop
 echo "Type=Application" >> flashplayer.desktop
-echo "Exec=/home/ubuntu/executable/flashplayer %f" >> flashplayer.desktop
+echo "Exec=/home/$USER/executable/flashplayer %f" >> flashplayer.desktop
 echo "Name=flashplayer" >> flashplayer.desktop
 echo "Comment=Custom definition for flashplayer" >> flashplayer.desktop
 echo "NoDisplay=true" >> flashplayer.desktop
