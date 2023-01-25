@@ -1,22 +1,23 @@
 #Copyright 2017 pol2095.
 
 cd ~
-if [ ! -e executable ]
+if [ ! -e bin ]
 then
-    mkdir executable
+    mkdir bin
 fi
 
-cd executable
+cd bin
 wget http://pol2095.free.fr/flash_player_sa_linux.x86_64 -O flash_player_sa_linux.x86_64.tar.gz
 tar xvzf flash_player_sa_linux.x86_64.tar.gz
 rm flash_player_sa_linux.x86_64.tar.gz
+#rm license.pdf
+#rm LGPL
 
 cd ~/.local/share/applications
 echo "[Desktop Entry]" >> flashplayer.desktop
 echo "Encoding=UTF-8" >> flashplayer.desktop
 echo "Version=1.0" >> flashplayer.desktop
 echo "Type=Application" >> flashplayer.desktop
-echo "Exec=/home/$USER/executable/flashplayer %f" >> flashplayer.desktop
-echo "Name=flashplayer" >> flashplayer.desktop
-echo "Comment=Custom definition for flashplayer" >> flashplayer.desktop
-echo "NoDisplay=true" >> flashplayer.desktop
+echo "Exec=$HOME/bin/flashplayer %f" >> flashplayer.desktop
+echo "Name=Flashplayer Standalone" >> flashplayer.desktop
+echo "Comment=Linux flash player projector" >> flashplayer.desktop
