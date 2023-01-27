@@ -18,6 +18,6 @@ echo "[Desktop Entry]" >> flashplayer.desktop
 echo "Encoding=UTF-8" >> flashplayer.desktop
 echo "Version=1.0" >> flashplayer.desktop
 echo "Type=Application" >> flashplayer.desktop
-echo "Exec=$HOME/bin/flashplayer %f" >> flashplayer.desktop
+echo "Exec=$HOM/bin/flashplayer %f" >> flashplayer.desktop
 echo "Name=Flashplayer Standalone" >> flashplayer.desktop
 echo "Comment=Linux flash player projector" >> flashplayer.desktop
